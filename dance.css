@@ -1,6 +1,6 @@
 .dew-diy {
   --dew-shift: color 303ms;
-  --dew-solar: #cd5;
+  --dew-solar: steelblue;
   --dew-lunar: #528;
   --dew-locus: currentColor;
   --dew-hover: hue-rotate(-120deg);
@@ -8,17 +8,22 @@
 
 .dew-hot {
   --dew-solar: #010101;
-  --dew-lunar: deeppink;
+  --dew-lunar: hotpink;
 }
 
 .dew-warm {
   --dew-solar: #202020;
-  --dew-lunar: orchid;
+  --dew-lunar: lime;
 }
 
 .dew-noise {
   --dew-solar: #030303;
-  --dew-lunar: #999;
+  --dew-lunar: #cd5;
+}
+
+.dew-poise {
+  --dew-solar: #030303;
+  --dew-lunar: salmon;
 }
 
 :link {
